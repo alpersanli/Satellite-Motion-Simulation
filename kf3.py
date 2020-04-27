@@ -87,11 +87,13 @@ def grafik1():
     plt.title("DeltaT=0.1 ve 100000 adim icin Zaman Konum Grafigi")
     plt.xlabel("Zaman")
     plt.ylabel("Konum")
+    plt.savefig(fname="g11.png", facecolor="#f0f9e8", dpi=600, quality=95)
     plt.show()
     plt.plot(B1, D1)
     plt.title("DeltaT=0.1 ve 100000 adim icin Zaman Hiz Grafigi")
     plt.xlabel("Zaman")
     plt.ylabel("Hiz")
+    plt.savefig(fname="g12.png", facecolor="#f0f9e8", dpi=600, quality=95)
     plt.show()
 
 
@@ -101,11 +103,13 @@ def grafik2():
     plt.title("DeltaT=1 ve 10000 adim icin Zaman Konum Grafigi")
     plt.xlabel("Zaman")
     plt.ylabel("Konum")
+    plt.savefig(fname="g21.png", facecolor="#f0f9e8", dpi=600, quality=95)
     plt.show()
     plt.plot(B2, D2)
     plt.title("DeltaT=1 ve 10000 adim icin Zaman Hiz Grafigi")
     plt.xlabel("Zaman")
     plt.ylabel("Hiz")
+    plt.savefig(fname="g22.png", facecolor="#f0f9e8", dpi=600, quality=95)
     plt.show()
 
 
